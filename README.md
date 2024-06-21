@@ -1,7 +1,7 @@
 # Employee Absence Manager
 Comprehensive tool made with ColdFusion for managing and tracking employee absences
 
-
+- DB not included!
 ____________________
 TODO List:
 
