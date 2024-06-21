@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-image: url('../images/background_login.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-attachment: fixed; 
+}
+
+/*top*/
+.navbar {
+  background-color: #e8f1fc;
+  height: 120px;
+}
+
+.accountbg {
+  margin-top: 40px;
+}
+
+/*Form */
+.card {
+  width: 400px;
+  margin: 50px auto;
+  background-color: #ffffffc4;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.form-control {
+  height: 40px;
+  border-radius: 20px;
+  border-color: #f7f7f7ce;
+}
+
+.wrapper-page {
+  display: flex;
+  justify-content: center; 
+}
+
+.wrapper-page .card {
+  max-width: 800px;
+  width: 600px;
+  margin: 0 auto; 
+}
+
+.wrapper-page .form-control {
+  margin-bottom: 10px;
+}
+
+.wrapper-page label {
+  font-weight: bold;
+  margin-bottom: 3px;
+  display: block;
+}
+
+.wrapper-page .form-group {
+  margin-bottom: 15px;
+}
+
+.wrapper-page .btn {
+  margin-top: 15px;
+}
+
+
+/*Imagem User*/
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/*Botão Login*/
+.btn {
+  box-shadow: none;
+  width: 100%;
+  height: 40px;
+  background-color: #03A9F4;
+  color: #fff;
+  border-radius: 25px;
+  box-shadow: 3px 3px 3px #b1b1b1,
+      -3px -3px 3px #fff;
+  letter-spacing: 1.3px;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #039BE5;
+}
+

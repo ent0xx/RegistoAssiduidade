@@ -1,0 +1,171 @@
+body, html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/*Navbar*/
+
+.navbar {
+  top: 0;
+  position: sticky;
+  z-index: 999;
+}
+
+.sidebar .nav-link {
+  color: #333;
+}
+
+.sidebar .nav-link.active {
+  color: #17A2B8;
+}
+
+.custom-nav-link {
+  display: flex;
+  align-items: center;
+}
+
+.custom-nav-link.active {
+  background-color: #6ccdfabb; 
+  color: #ffffff !important; 
+  border-radius: 4px; 
+  padding: 5px 10px; 
+}
+
+.custom-nav-link.active svg {
+  stroke: #ffffff; 
+}
+
+/*Footer*/
+.main-footer {
+  margin-top: 576px;
+}
+
+/*Logo*/
+.navbar .logo {
+  left: 85px;
+}
+
+.navbar-brand {
+  position: absolute;
+
+}
+
+.custom-nav-link.active {
+  background-color: #007bff; /* Selecione a cor que você deseja */
+  color: white;
+}
+
+
+/*eventos calendario*/
+.event {
+  background: #007bff;
+  color: #fff;
+}
+
+
+/*Modal*/
+
+.modal-custom-width {
+  max-width: 650px;  
+}
+
+
+/*Logo IAS*/
+.logo_ia {
+  filter: blur(3px);
+  width: 80%;
+  margin-top: 40px;  
+}
+
+.logo_ia_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/*Botões da Pesquisa de Pedidos*/
+.pedidos-btn {
+  background-color: #d3d3d3; 
+  color: #696969; 
+  border: none;
+}
+
+
+.pedidos-btn:hover,
+.btn-selected {
+  background-color: #1C4E80;
+  color:White;
+}
+
+.pedidos-a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.page-link:hover {
+  background-color: #1C4E80;
+  color: white;
+}
+
+
+/*Botões da tabela (Opções)*/
+.successBtn {
+  background-color: transparent;
+}
+
+.successBtn:hover {
+  background-color: #1C4E80;
+  color: white!important;
+} 
+
+.deleteBtn {
+  background-color: transparent;
+  
+}
+
+.deleteBtn:hover {
+  background-color: #1C4E80;
+  color: white!important;
+} 
+
+
+
+/* Limitar comentário na tabela */
+ .limite-comentario {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+} 
+
+/*DropDown opções (Tabela)*/
+.dropdown-menu .dropdown-item:hover {
+  cursor: pointer;
+}
+
+.dropdown-menu .dropdown-item:active {
+  background-color: #1C4E80;
+}
+
+/* Paginação */
+.pagination {
+  display: flex;
+  justify-content: flex-end; 
+}
+.page-link { 
+  cursor: pointer; 
+}
+.active { 
+  background-color: #666; color: white;
+}
+
+
+/* Gestão Utilizadores botão pesquisar */
+.pedidos-btn {
+  margin-top: 24px;
+}
+
+/* Paginação */
+

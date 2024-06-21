@@ -1,0 +1,57 @@
+.calendar {
+  width: 850px;
+  margin: 0 auto;
+  border-radius: 6px;
+  box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.16);
+  background-color: white;
+  overflow: hidden;
+  margin-top: -25px;
+}
+
+.calendar .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  flex-direction: column;
+}
+
+.calendar .header .month-select,
+.calendar .header .year-select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.calendar .header .btn {
+  cursor: pointer;
+}
+
+/*Background do calendario*/
+.table td:hover {
+  background-color: #eee;
+}
+
+.table td {
+  height: 100px;
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+/* Setas do mês e ano*/
+.btn-prev-month, .btn-next-month, .btn-prev-year, .btn-next-year {
+  margin: 0 150px; 
+}
+.btn-prev-month, .btn-next-month, .btn-prev-year, .btn-next-year {
+  font-size: 2rem; 
+}
+
+/*Letra ano e mês*/
+.month-label, .year-label {
+  font-size: 1.8em; 
+}
