@@ -11,7 +11,7 @@ Features to Implement:
 
 User Management:
 - Create a user management page with all functionalities described in the requirements.
-- 
+
 Absence Policy Management:
 - Create a management page for absence policies.
   
